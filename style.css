@@ -1,0 +1,58 @@
+body{background: linear-gradient(135deg, honeydew, wheat);
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+h1{font-family: cursive;
+    text-align: center;
+    font-size: 36px;
+    color: darkgreen;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+img{border-radius: 10%;
+    width: 150px;
+    height: 150px;
+}
+
+p{margin-top: 0;
+    margin-bottom: 35px;
+
+}
+
+
+.mysubtitles{font-family: cursive;
+    font-size: x-large;
+    color: seagreen;
+    margin-top: 36px;
+    margin-bottom: 6px;
+}
+
+.minititles{font-family: cursive;
+    font-size: large;
+    font-weight: 500;
+    color: sienna;
+    margin-bottom: 0px;
+}
+
+.text{font-family: cursive;
+    font-size: medium;
+    color: dimgray;
+}
+
+blockquote{font-family: georgia, serif;
+    font-style: italic;
+    font-size: 18px;
+    border-left: 4px;
+    margin: 20px 40px;
+}
+
+blockquote cite{display: block;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
