@@ -4,61 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mali Baruch - My Profile</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="new-style.css">
 </head>
 <body>
-    <h1>Mali Baruch</h1>
+    <!-- סרגל ניווט עליון עדין -->
+    <nav class="navbar">
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#photography">Photography</a>
+            <a href="#italy">Italy</a>
+            <a href="#nature">Nature</a>
+        </div>
+    </nav>
 
-    <img src="Images/mali1.jpg"/>
+    <header class="site-header">
+        <img src="Images/mali1.jpg" alt="Mali Baruch" class="profile-img"/>
+        <h1>Mali Baruch</h1>
+    </header>
 
-    <h2 class="mysubtitles">About Me</h2>
-<p class="text">Hi, welcome to my page! 
-    <br>I'm passionate about exploring nature, discovering new places, and capturing the world around me through my lens. 
-    <br>This site is a small collection of the things that inspire me every day.
-</p>
+    <main class="container">
+        <section id="about" class="about-section card">
+            <h2 class="mysubtitles">About Me</h2>
+            <p class="text">Hi, welcome to my page! 
+                <br>I'm passionate about exploring nature, discovering new places, and capturing the world around me through my lens. 
+                <br>This site is a small collection of the things that inspire me every day.
+            </p>
+        </section>
 
+        <h2 class="section-title">What I Like</h2>
 
-<h2 class="mysubtitles">What I Like</h2>
-<ul>
-<li class="minititles">Photography</li>
-<p class="text">Photography allows me to capture the beauty of the world from different perspectives. 
-    <br>Through landscape photography, I enjoy freezing the grandeur of nature, open spaces, and vibrant horizons. 
-    <br>Macro photography lets me zoom in on the smallest details that often go unnoticed, like the delicate textures of a flower. 
-    <br>Additionally, I love black and white photography, as it brings out unique atmosphere and plays with light and shadow. 
-    <br>Ultimately, for me, every photograph tells a story.
-</p>
+        <div class="interests-grid">
+            <!-- Photography Section -->
+            <section id="photography" class="interest-card card">
+                <h3 class="minititles">Photography</h3>
+                <p class="text">Photography allows me to capture the beauty of the world from different perspectives. 
+                    <br>Through landscape photography, I enjoy freezing the grandeur of nature, open spaces, and vibrant horizons. 
+                    <br>Macro photography lets me zoom in on the smallest details that often go unnoticed, like the delicate textures of a flower. 
+                    <br>Additionally, I love black and white photography, as it brings out unique atmosphere and plays with light and shadow. 
+                    <br>Ultimately, for me, every photograph tells a story.
+                </p>
+                <div class="image-gallery">
+                    <img src="Images/butterfly.jpg" alt="butterfly">
+                    <img src="Images/b&w.jpg" alt="beer sheeva b&w">
+                    <img src="Images/macro.jpg" alt="macro">
+                </div>
+            </section>
 
-<img src="Images/butterfly.jpg" alt="butterfly">
-<img src="Images/b&w.jpg" alt="beer sheeva b&w">
-<img src="Images/macro.jpg" alt="macro">
+            <!-- Italy Section -->
+            <section id="italy" class="interest-card card">
+                <h3 class="minititles">Italy</h3>
+                <p class="text">Italy is a breathtaking country with incredible diversity from north to south. 
+                    <br>In the north, you can find the dramatic nature of the majestic Dolomites, perfect for mountain landscapes and outdoor exploration. 
+                    <br>Heading down south, the country opens up to gorgeous coastlines, crystal-clear waters, and a vibrant coastal atmosphere. 
+                    <br>Combined with its rich history, architecture, art, beautiful language and delicious cuisine, every region offers a unique story.
+                </p>
+                <div class="image-gallery">
+                    <img src="Images/siusi.jpg" alt="alpi di siusi">
+                    <img src="Images/cupola.JPG" alt="la cupola di brunelleschi">
+                    <img src="Images/positano.jpg" alt="positano">
+                </div>
+            </section>
 
+            <!-- Nature Section -->
+            <section id="nature" class="interest-card card">
+                <h3 class="minititles">Nature</h3>
+                <p class="text">Nature is a constant source of inspiration, offering endless beauty and quiet moments. 
+                    <br>Whether it is the vast green landscapes, blooming flowers, or the subtle details of light and shadow, exploring nature allows us to disconnect and reconnect with the world around us.
+                </p>
+                <blockquote>"Nature is the source of all true knowledge." 
+                    <cite>— Leonardo da Vinci</cite>
+                </blockquote>
+                <div class="image-gallery">
+                    <img src="Images/clouds.jpg" alt="clouds">
+                    <img src="Images/dandilion.jpg" alt="dandilion">
+                    <img src="Images/rocky beach.JPG" alt="rocky beach">
+                </div>
+            </section>
+        </div>
+    </main>
 
-<li class="minititles">Italy</li>
-<p class="text">Italy is a breathtaking country with incredible diversity from north to south. 
-    <br>In the north, you can find the dramatic nature of the majestic Dolomites, perfect for mountain landscapes and outdoor exploration. 
-    <br> Heading down south, the country opens up to gorgeous coastlines, crystal-clear waters, and a vibrant coastal atmosphere. 
-    <br> Combined with its rich history, art, and delicious cuisine, every region offers a unique story.
-</p>
-
-<img src="Images/siusi.jpg" alt="alpi di siusi">
-<img src="Images/cupola.JPG" alt="la cupola di brunelleschi">
-<img src="Images/positano.jpg" alt="positano">
-
-<li class="minititles">Nature</li>
-<p class="text">Nature is a constant source of inspiration, offering endless beauty and quiet moments. 
-    <br>Whether it is the vast green landscapes, blooming flowers, or the subtle details of light and shadow, exploring nature allows us to disconnect and reconnect with the world around us.
-</p>
-<blockquote>"Nature is the source of all true knowledge." 
-    <cite>— Leonardo da Vinci</cite>
-</blockquote>
-</ul>
-
-<img src="Images/clouds.jpg" alt="clouds">
-<img src="Images/dandilion.jpg" alt="dandilion">
-<img src="Images/rocky beach.JPG" alt="rocky beach">
-
-
-
+    <footer class="site-footer">
+        <p>&copy; 2026 Mali Baruch. All rights reserved.</p>
+    </footer>
 
 </body>
 </html>
